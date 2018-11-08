@@ -9,7 +9,7 @@ const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
 mongoose.connect(
-    'mongodb://goweekrodinei:goweek123456@ds255253.mlab.com:55253/goweek-rodineiti', 
+    'mongodb://', 
     {
         useNewUrlParser: true
     }
